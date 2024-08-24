@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transform: rotate(20deg);
+  /*   transform: rotate(20deg); */
 }
 
 .cube-right {
@@ -28,7 +28,7 @@
     padding: 1rem;
     margin: 0 1rem;
     box-shadow: -14px 14px 10px lightgrey inset, -10px 10px 10px rgb(170, 170, 170);
-    transform: rotateX(45deg) translateZ(1rem) translateY(50px);
+/*     transform: rotateX(45deg) translateZ(1rem) translateY(50px); */
     transition: all 400ms;
     text-shadow: 0 0 10px lightgray;
     color: rgb(54, 56, 57);
@@ -45,7 +45,7 @@
     transition: all 400ms;
     text-shadow: -5px 0px 5px gray;
     color: rgb(54, 56, 57);
-    transform: rotateX(45deg) translateZ(1rem) translateY(50px);
+/*     transform: rotateX(45deg) translateZ(1rem) translateY(50px); */
     padding: 1rem;
     margin: 0 .5rem;
 }
@@ -163,7 +163,7 @@
 
 .left__logo {
     width: 65px;
-    transform: rotateX(40deg) rotateY(0deg) translateY(45px);
+   /*  transform: rotateX(40deg) rotateY(0deg) translateY(45px); */
 }
 
 .left__search-box {

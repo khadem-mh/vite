@@ -3,19 +3,10 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    transform: rotate(20deg);
 }
 
 .header__right {
     position: relative;
-}
-
-.header__right-cube {
-    transform: rotateX(45deg) translateZ(1rem) translateY(50px);
-}
-
-.header__left-cube {
-    transform: rotateX(45deg) translateZ(1rem) translateY(50px);
 }
 
 .header__bg-logo {

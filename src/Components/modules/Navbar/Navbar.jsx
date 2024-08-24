@@ -17,7 +17,7 @@ export default function Navbar() {
     return (
         <section>
             <nav className="navbar">
-                <div className="navbar__left cube-left">
+                <div className="navbar__left">
                     <img src="/Images/Logos/vite.png" alt="logo-nav" className="left__logo" />
                     <div className="left__search-box">
                         <FiSearch className="search-box__icon" />
@@ -26,7 +26,7 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div>
-                    <ul className="navbar__right cube-right">
+                    <ul className="navbar__right">
 
                         <li className="right-li"><a href="#">Guide</a></li>
                         <li className="right-li"><a href="#">Config</a></li>
