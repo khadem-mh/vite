@@ -2,7 +2,10 @@
     margin-top: 7rem;
     display: flex;
     flex-direction: row-reverse;
+    align-items: flex-end;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 140px;
 }
 
 .header__right {
@@ -14,16 +17,16 @@
     top: 50%;
     left: 50%;
     border-radius: 50%;
-    width: 322px;
-    height: 322px;
+    width: 400px;
+    height: 400px;
     background: linear-gradient(-45deg, rgba(189, 52, 254, .8) 50%, rgba(71, 202, 255, .8) 50%);;
-    filter: blur(52px);
+    filter: blur(102px);
     transform: translate(-50%, -50%);
 }
 
 .header__logo {
     position: relative;
-    max-width: 320px;
+    max-width: 350px;
 }
 
 .header__title {
@@ -39,10 +42,10 @@
 }
 
 .header__desc {
-    margin-top: .9rem;
+    margin-bottom: 2rem;
     font-weight: 500;
     max-width: 700px;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: rgba(60, 60, 67, 0.78);
 }
 

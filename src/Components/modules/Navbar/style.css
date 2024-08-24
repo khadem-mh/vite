@@ -1,21 +1,15 @@
 .navbar {
     margin-top: 7rem !important;
-    max-width: 1600px;
+    max-width: 1500px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  /*   transform: rotate(20deg); */
+    flex-wrap: wrap;
 }
 
-.cube-right {
-    transform-style: preserve-3d;
-    transform: rotateX(-20deg) rotateY(25deg);
-}
-
-.cube-left {
-    transform-style: preserve-3d;
-    transform: rotateX(-20deg) rotateY(25deg) translateY(160px);
+.navbar * {
+    z-index: 2;
 }
 
 .navbar__right {
@@ -28,7 +22,6 @@
     padding: 1rem;
     margin: 0 1rem;
     box-shadow: -14px 14px 10px lightgrey inset, -10px 10px 10px rgb(170, 170, 170);
-/*     transform: rotateX(45deg) translateZ(1rem) translateY(50px); */
     transition: all 400ms;
     text-shadow: 0 0 10px lightgray;
     color: rgb(54, 56, 57);
@@ -45,7 +38,6 @@
     transition: all 400ms;
     text-shadow: -5px 0px 5px gray;
     color: rgb(54, 56, 57);
-/*     transform: rotateX(45deg) translateZ(1rem) translateY(50px); */
     padding: 1rem;
     margin: 0 .5rem;
 }
@@ -67,7 +59,7 @@
     top: 65px;
     right: 10px;
     transition: 300ms;
-    background-color: transparent;
+    background-color: #FFFFFF;
     box-shadow: 0 0 10px lightgray;
     padding: 1rem 0;
     border-radius: 1rem;
@@ -163,7 +155,6 @@
 
 .left__logo {
     width: 65px;
-   /*  transform: rotateX(40deg) rotateY(0deg) translateY(45px); */
 }
 
 .left__search-box {
