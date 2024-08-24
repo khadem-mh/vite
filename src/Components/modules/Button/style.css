@@ -1,0 +1,12 @@
+.button__main {
+    border-radius: 50rem;
+    padding: .8rem 1.4rem;
+    cursor: pointer;
+    transition: all 300ms;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.button__main:hover {
+    filter: brightness(.9);
+}
